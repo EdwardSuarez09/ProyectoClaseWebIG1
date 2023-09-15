@@ -1,0 +1,56 @@
+body{
+
+    background-color: black;
+    
+}
+
+.FlexContenedor{
+
+
+
+    display: flex;
+
+
+}
+nav{
+
+    height: 100px;
+}
+
+.div1{
+
+    width: 20%;
+
+
+}
+
+.div2{
+
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+
+}
+
+
+
+.div3{
+
+
+    width: 30%;
+    display: flex;
+
+    justify-content: end;
+
+
+
+}
+
+.flex2{
+
+
+    display: flex;
+
+    justify-content: space-between;
+}
