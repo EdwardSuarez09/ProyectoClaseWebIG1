@@ -14,7 +14,10 @@ body{
 }
 nav{
 
-    height: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 90%;
 }
 
 .div1{
@@ -28,23 +31,25 @@ nav{
 
     display: flex;
     justify-content: space-between;
+    align-items: center; 
     width: 40%;
+
+    margin-right: auto;
 
 
 }
 
 
 
-.div3{
-
-
-    width: 30%;
+.div3 {
     display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+}
 
-    justify-content: end;
-
-
-
+.div3 img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px; /* Añade espacio a la izquierda de las imágenes */
 }
 
 .flex2{
@@ -53,4 +58,13 @@ nav{
     display: flex;
 
     justify-content: space-between;
+}
+
+
+.div2 a{
+
+
+    margin-right: 15px;
+
+
 }
