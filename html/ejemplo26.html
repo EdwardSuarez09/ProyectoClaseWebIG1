@@ -5,23 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo JS</title>
 
+    <script src="../JavaScript/utilidades.js"></script>
 
-    <script>
-
-function mostrarMensaje{
-  alert("Hola mundo");
-}
-
-    </script>
 
 
 </head>
 <body>
 
-  <script>
-    alert("Hello world");
-</script>
 
+    
+
+<h1 id="titulo">Ejemplo</h1>
+
+<p id="texto">El front end es mejor que el back end</p>
+
+<script>
+
+
+  
+    var h1 = document.getElementById("titulo");
+    
+    h1.innerHTML = "Ejemplo JS";
+
+
+    var p = crearNodoTexto("p","El mundo cambia con un solo click")
+      var h2 = crearNodoTexto("h2", "BackEnd")
+
+      adicionarNodoBody(p);
+      adicionarNodoBody(h2);
+    
+
+    var pDos = document.getElementById("texto");
+    pDos.remove();
+
+
+    
+    </script>
     
 </body>
 </html>
